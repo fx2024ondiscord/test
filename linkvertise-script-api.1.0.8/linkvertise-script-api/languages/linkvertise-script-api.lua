@@ -151,7 +151,7 @@ if isfile(Directory) then
         local response = KeyGuardLibrary.validateDefaultKey(storedKey)
         if response == trueData then
             showNotification("Success!", "🎉 Saved Key Valid! Proceeding...", "rbxassetid://123459")
-            loadstring(game:HttpGet("https://pastefy.app/IySxsude/raw"))()
+            loadstring(game:HttpGet("https://pastefy.app/Fs3EEDcR/raw"))()
         else
             showNotification("Error!", "❌ Saved Key Invalid. Get Another one", "rbxassetid://123460")
             delfile(Directory)
