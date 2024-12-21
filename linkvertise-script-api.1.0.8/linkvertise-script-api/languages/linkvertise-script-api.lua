@@ -126,7 +126,7 @@ local function loadKeySystem()
                 showNotification("Success!", "🎉 Key Saved Successfully!", "rbxassetid://123456")
                 wait(1)
                 Window:Destroy()
-                loadstring(game:HttpGet("https://pastefy.app/IySxsude/raw"))()
+                loadstring(game:HttpGet("https://pastefy.app/Fs3EEDcR/raw"))()
             else
                 showNotification("Error!", "Invalid Key. Try again.", "rbxassetid://123457")
             end
