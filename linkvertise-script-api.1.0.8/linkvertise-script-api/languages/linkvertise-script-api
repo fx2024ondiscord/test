@@ -67,6 +67,7 @@
 -- ⚠️ WARNING:protected!
 -- ⚠️ WARNING:protected!
 -- ⚠️ WARNING:protected!
+
 local KeyGuardLibrary = loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
 local trueData = "335c42844e634b09ad72fd645207eee0"
 local falseData = "72d05c65a9924465974624da1c696bd7"
@@ -115,11 +116,6 @@ local function loadKeySystem()
         Finished = false,
     })
 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
- 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
- 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
     local CheckKey = Tabs.KeySys:AddButton({
         Title = "✅ Check Key",
         Description = "Enter Key before pressing this button",
@@ -130,21 +126,13 @@ local function loadKeySystem()
                 showNotification("Success!", "🎉 Key Saved Successfully!", "rbxassetid://123456")
                 wait(1)
                 Window:Destroy()
-                loadstring(game:HttpGet("https://pastefy.app/Fs3EEDcR/raw"))()
+                loadstring(game:HttpGet("https://pastefy.app/IySxsude/raw"))()
             else
                 showNotification("Error!", "Invalid Key. Try again.", "rbxassetid://123457")
             end
         end
     })
 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
- 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
- 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
- 
---if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
- 
     local GetKey = Tabs.KeySys:AddButton({
         Title = "Get Key",
         Description = "Copy Key Link",
@@ -163,7 +151,7 @@ if isfile(Directory) then
         local response = KeyGuardLibrary.validateDefaultKey(storedKey)
         if response == trueData then
             showNotification("Success!", "🎉 Saved Key Valid! Proceeding...", "rbxassetid://123459")
-            loadstring(game:HttpGet("https://pastefy.app/Fs3EEDcR/raw"))()
+            loadstring(game:HttpGet("https://pastefy.app/IySxsude/raw"))()
         else
             showNotification("Error!", "❌ Saved Key Invalid. Get Another one", "rbxassetid://123460")
             delfile(Directory)
@@ -174,7 +162,8 @@ if isfile(Directory) then
     end
 else
     loadKeySystem()
-end 
+end
+
 -- ⚠️ WARNING:protected!
 -- ⚠️ WARNING:protected!
 -- ⚠️ WARNING:protected!
