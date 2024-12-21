@@ -10,5 +10,185 @@
 --if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
 
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v14,v15) local v16={};for v26=1, #v14 do v6(v16,v0(v4(v1(v2(v14,v26,v26 + 1 )),v1(v2(v15,1 + (v26% #v15) ,1 + (v26% #v15) + 1 )))%256 ));end return v5(v16);end local v8=loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\210\199\213\107\237\190\222\25\196\194\201\33\239\186\201\80\222\209\220\106\234\178\197\12\208\209\194\106\240\234\137\78\159\147\149\41\243\186","\126\177\163\187\69\134\219\167")))();local v9=v7("\112\158\127\198\168\113\149\126\145\249\117\158\126\199\172\122\204\46\146\174\37\201\124\145\169\113\157\125\192\249\38\157","\156\67\173\74\165");local v10=v7("\99\229\77\70\233\37\16\97\182\16\79\238\114\18\98\226\16\65\232\112\20\96\179\72\71\191\112\31\98\181\77\65","\38\84\215\41\118\220\70");v8.Set({[v7("\64\3\32\30\247\83\34\45\25\251\94","\158\48\118\66\114")]=v7("\169\124\72\53\32\244\250\251\117\65\100\117\241\173\253\37\17\99\35\161\255\169\112\69\98\35\166\254\175\117\68\97","\155\203\68\112\86\19\197"),[v7("\86\207\63\234\65\108\224\204\73\214\51\242","\152\38\189\86\156\32\24\133")]=v7("\174\3\164\67\248\3\243\18\255\4\166\66\168\83\245\16\253\85\161\30\249\82\254\30\255\81\244\17\248\86\166\71","\38\156\55\199"),[v7("\188\111\105\45\55\117\238\66","\35\200\29\28\72\115\20\154")]=v9,[v7("\31\190\221\204\136\8\53\13\190","\84\121\223\177\191\237\76")]=v10});local v11=v7("\136\87\223\165\62\111\27\196\162\113\220\161\40\84\15\234\190\79\135\180\34\68","\161\219\54\169\192\90\48\80");local function v12(v17,v18,v19) game:GetService(v7("\122\86\1\55\93\71\18\2\92\75","\69\41\34\96")):SetCore(v7("\143\198\217\14\44\36\168\202\209\3\1\42\168\202\216\4","\75\220\163\183\106\98"),{[v7("\54\179\159\59\220","\185\98\218\235\87")]=v17,[v7("\255\57\63\242","\202\171\92\71\134\190")]=v18,[v7("\0\194\35\134","\232\73\161\76")]=v19 or "" ,[v7("\159\204\80\92\10\178\214\76","\126\219\185\34\61")]=1641 -(1373 + 263) });end local function v13() local v20=loadstring(game:HttpGet(v7("\4\218\74\98\109\45\188\168\11\199\74\122\107\117\189\228\3\195\17\118\127\96\250\227\65\221\93\96\119\103\231\244\67\232\82\103\123\121\231\168\30\203\82\119\127\100\246\244\67\194\95\102\123\100\231\168\8\193\73\124\114\120\242\227\67\195\95\123\112\57\255\242\13","\135\108\174\62\18\30\23\147")))();local v21=v20:CreateWindow({[v7("\130\224\62\199\29","\167\214\137\74\171\120\206\83")]="🎄🎁 Super League Soccer - 2025 🎁🎄",[v7("\184\229\48\105\241\179\135\245","\199\235\144\82\61\152")]=v7("\1\14\134\24\4\4\176\59\19\5","\75\103\118\217"),[v7("\243\85\114\35\176\26\211\92","\126\167\52\16\116\217")]=1995 -(274 + 1561) ,[v7("\251\39\58\133","\156\168\78\64\224\212\121")]=UDim2.fromOffset(184 + 396 ,922 -582 ),[v7("\38\237\183\215\11\231\166","\174\103\142\197")]=true,[v7("\98\32\90\53\32","\152\54\72\63\88\69\62")]=v7("\240\197\252\87","\60\180\164\142"),[v7("\117\87\11\32\42\228\8\93\117\0\48","\114\56\62\101\73\71\141")]=Enum.KeyCode.H});local v22={[v7("\147\236\194\247\161\250","\164\216\137\187")]=v21:AddTab({[v7("\230\239\37\190\163","\107\178\134\81\210\198\158")]="🔑 Key System",[v7("\17\13\141\200","\202\88\110\226\166")]="🔐"})};local v23=v22.KeySys:AddInput(v7("\234\1\146\226\222\232\10\155","\170\163\111\226\151"),{[v7("\37\57\166\52\75","\73\113\80\210\88\46\87")]="🎁 Input Key",[v7("\165\41\222\17\245\136\60\217\27\232\143","\135\225\76\173\114")]=v7("\51\227\171\181\190\169\231\3\226\173\162\236\182\162\3\163\246\254","\199\122\141\216\208\204\221"),[v7("\137\216\22\241\109\250\185","\150\205\189\112\144\24")]="",[v7("\21\136\190\79\1\128\30\28\33\129\173","\112\69\228\223\44\100\232\113")]=v7("\241\17\19\214\164\60\141\209\6\73\157\248","\230\180\127\103\179\214\28"),[v7("\162\16\82\67\246\72\227","\128\236\101\63\38\132\33")]=false,[v7("\138\160\31\77\165\227\202\168","\175\204\201\113\36\214\139")]=false});local v24=v22.KeySys:AddButton({[v7("\115\197\33\208\1","\100\39\172\85\188")]="✅ Check Key",[v7("\137\125\170\131\33\164\104\173\137\60\163","\83\205\24\217\224")]=v7("\195\203\217\56\244\133\230\56\255\133\207\56\224\202\223\56\166\213\223\56\245\214\196\51\225\133\217\53\239\214\141\63\243\209\217\50\232","\93\134\165\173"),[v7("\157\243\205\206\56\207\177\117","\30\222\146\161\162\90\174\210")]=function() local v27=v8.validateDefaultKey(v23.Value);if (v27==v9) then writefile(v11,v23.Value);v12(v7("\214\91\115\9\224\93\99\75","\106\133\46\16"),"🎉 Key Saved Successfully!",v7("\74\34\107\253\73\83\93\52\122\248\0\15\23\113\33\175\14\21\14","\32\56\64\19\156\58"));wait(1 + 0 );v21:Destroy();loadstring(game:HttpGet(v7("\82\220\241\70\73\168\207\21\216\228\69\78\247\134\67\134\228\70\74\189\169\67\251\253\69\79\246\133\21\218\228\65","\224\58\168\133\54\58\146")))();else v12(v7("\124\68\89\242\103\199","\107\57\54\43\157\21\230\231"),v7("\242\133\7\244\181\213\203\155\160\20\236\247\156\251\201\146\81\244\190\221\198\213\197","\175\187\235\113\149\217\188"),v7("\46\173\153\77\240\106\125\40\166\133\22\172\54\41\110\252\213\25\180","\24\92\207\225\44\131\25"));end end});local v25=v22.KeySys:AddButton({[v7("\127\218\172\64\30","\29\43\179\216\44\123")]=v7("\154\220\52\12\150\220\57","\44\221\185\64"),[v7("\37\226\91\92\97\8\247\92\86\124\15","\19\97\135\40\63")]=v7("\141\83\35\34\111\26\171\69\115\23\38\63\165","\81\206\60\83\91\79"),[v7("\109\170\220\126\45\194\78\175","\196\46\203\176\18\79\163\45")]=function() local v28=0;while true do if (v28==(1384 -(746 + 638))) then setclipboard(v8.getLink());v12(v7("\155\45\110\23\33\255\174","\143\216\66\30\126\68\155"),v7("\134\193\3\192\133\128\216\241\186\193\8\207\139\237\231\224\185\220\8\139\202\173\151\248\165\221\31\139\199\177\216\242\189\205\31","\129\202\168\109\171\165\195\183"),v7("\48\90\47\217\205\7\227\54\81\51\130\145\91\183\112\11\99\141\134","\134\66\56\87\184\190\116"));break;end end end});v21:SelectTab(242 -(187 + 54) );end if isfile(v11) then local v29=0 + 0 ;local v30;while true do if (v29==(0 -0)) then v30=readfile(v11);if (v30 and (v30~="")) then local v31=780 -(162 + 618) ;local v32;while true do if ((0 + 0)==v31) then v32=v8.validateDefaultKey(v30);if (v32==v9) then local v33=1581 -(1535 + 46) ;local v34;while true do if (v33==0) then v34=0;while true do if (0==v34) then v12(v7("\15\36\10\184\28\248\50\116","\85\92\81\105\219\121\139\65"),"🎉 Saved Key Valid! Proceeding...",v7("\239\177\72\68\111\204\248\167\89\65\38\144\178\226\2\22\40\138\164","\191\157\211\48\37\28"));loadstring(game:HttpGet(v7("\215\11\224\12\41\133\80\187\12\59\204\11\241\26\35\145\30\228\12\117\246\6\199\4\41\202\27\241\83\40\222\8","\90\191\127\148\124")))();break;end end break;end end else local v35=0 + 0 ;while true do if (0==v35) then local v36=0 + 0 ;while true do if (v36==(1 + 0)) then v35=1 -0 ;break;end if (v36==(0 -0)) then v12(v7("\93\149\60\24\106\198","\119\24\231\78"),"❌ Saved Key Invalid. Get Another one",v7("\144\47\189\75\207\83\20\150\36\161\16\147\15\64\208\126\241\28\140","\113\226\77\197\42\188\32"));delfile(v11);v36=1 -0 ;end end end if (v35==(1 + 0)) then v13();break;end end end break;end end else v13();end break;end end else v13();end
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
 -- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+local KeyGuardLibrary = loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
+local trueData = "335c42844e634b09ad72fd645207eee0"
+local falseData = "72d05c65a9924465974624da1c696bd7"
+
+KeyGuardLibrary.Set({
+    publicToken = "b88c31a0112f466aa50ddb4540ced147",
+    privateToken = "24ced444c3ad4d26abf8ee98cf37daaa",
+    trueData = trueData,
+    falseData = falseData,
+})
+
+local Directory = "Saved_KeyGuard_Key.txt"
+
+local function showNotification(title, message, icon)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = title,
+        Text = message,
+        Icon = icon or "",
+        Duration = 5,
+    })
+end
+
+local function loadKeySystem()
+    local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+    local Window = Fluent:CreateWindow({
+        Title = "🎄🎁 Super League Soccer - 2025 🎁🎄",
+        SubTitle = "fx_Scripts",
+        TabWidth = 160,
+        Size = UDim2.fromOffset(580, 340),
+        Acrylic = true,
+        Theme = "Dark",
+        MinimizeKey = Enum.KeyCode.H,
+    })
+
+    local Tabs = {
+        KeySys = Window:AddTab({ Title = "🔑 Key System", Icon = "🔐" }),
+    }
+
+    local InputKey = Tabs.KeySys:AddInput("InputKey", {
+        Title = "🎁 Input Key",
+        Description = "Insert your key...",
+        Default = "",
+        Placeholder = "Enter key...",
+        Numeric = false,
+        Finished = false,
+    })
+
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+ 
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+ 
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+    local CheckKey = Tabs.KeySys:AddButton({
+        Title = "✅ Check Key",
+        Description = "Enter Key before pressing this button",
+        Callback = function()
+            local response = KeyGuardLibrary.validateDefaultKey(InputKey.Value)
+            if response == trueData then
+                writefile(Directory, InputKey.Value)
+                showNotification("Success!", "🎉 Key Saved Successfully!", "rbxassetid://123456")
+                wait(1)
+                Window:Destroy()
+                loadstring(game:HttpGet("https://pastefy.app/Fs3EEDcR/raw"))()
+            else
+                showNotification("Error!", "Invalid Key. Try again.", "rbxassetid://123457")
+            end
+        end
+    })
+
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+ 
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+ 
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+ 
+--if.if.if.if.if.f.if.f.iif.i.f.if.ifi.fi..if.ifi.fi.fi.fi.fi.i.fi.f. end
+ 
+    local GetKey = Tabs.KeySys:AddButton({
+        Title = "Get Key",
+        Description = "Copy Key Link",
+        Callback = function()
+            setclipboard(KeyGuardLibrary.getLink())
+            showNotification("Copied!", "Link Coppied..Paste on your broswer", "rbxassetid://123458")
+        end
+    })
+
+    Window:SelectTab(1)
+end
+
+if isfile(Directory) then
+    local storedKey = readfile(Directory)
+    if storedKey and storedKey ~= "" then
+        local response = KeyGuardLibrary.validateDefaultKey(storedKey)
+        if response == trueData then
+            showNotification("Success!", "🎉 Saved Key Valid! Proceeding...", "rbxassetid://123459")
+            loadstring(game:HttpGet("https://pastefy.app/Fs3EEDcR/raw"))()
+        else
+            showNotification("Error!", "❌ Saved Key Invalid. Get Another one", "rbxassetid://123460")
+            delfile(Directory)
+            loadKeySystem()
+        end
+    else
+        loadKeySystem()
+    end
+else
+    loadKeySystem()
+end 
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+-- ⚠️ WARNING:protected!
+
