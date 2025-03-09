@@ -1,6 +1,0 @@
-local function isKeylessMode()
-    -- Modify this return value to toggle keyless mode
-    return true  -- Change to false to enable key-locked mode
-end
-
-return isKeylessMode()     
