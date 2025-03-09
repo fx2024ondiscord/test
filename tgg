@@ -1,6 +1,6 @@
-{
-  "status": "up",
-  "message": "The system is operational",
-  "last_updated": "2024-12-12T12:00:00Z",
-  "updated_by": "Discord Bot"
-}
+local function isKeylessMode()
+ 
+    return true  
+end
+
+return isKeylessMode()     
